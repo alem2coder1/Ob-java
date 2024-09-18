@@ -86,8 +86,8 @@ public class Practice1 {
 
 //        6
         System.out.print("Enter a word to check if it's a palindrome: ");
-        scanner.nextLine(); // 清除缓冲区中的换行符
-        String testWord = scanner.nextLine();  // 获取用户输入
+        scanner.nextLine();
+        String testWord = scanner.nextLine();
 
         if (isPalindrome(testWord)) {
             System.out.println(testWord + " is a palindrome.");
