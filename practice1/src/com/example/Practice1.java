@@ -17,13 +17,13 @@ public class Practice1 {
         double perimeter = 4 * a;
         double diagonal = Math.sqrt(2) * a;
         System.out.println("Area of the square: " + area);
-        System.out.println("Perimeter of the square: " + perimeter);
         System.out.println("Length of the diagonal: " + diagonal);
+        System.out.println("Perimeter of the square: " + perimeter);
 
 //        3
         System.out.print("Enter your score (0-100): ");
         int score = scanner.nextInt();
-        scanner.nextLine(); // 清除缓冲区中的换行符
+        scanner.nextLine();
         String grade;
         if (score >= 95 && score <= 100) {
             grade = "A";
