@@ -88,8 +88,8 @@ public class Practice1 {
         System.out.print("Enter a word to check if it's a palindrome: ");
         scanner.nextLine();
         String testWord = scanner.nextLine();
-
-        if (isPalindrome(testWord)) {
+        Practice1 is = new Practice1();
+        if (is.isPalindrome(testWord)) {
             System.out.println(testWord + " is a palindrome.");
         } else {
             System.out.println(testWord + " is not a palindrome.");
@@ -98,7 +98,7 @@ public class Practice1 {
         scanner.close();
     }
 
-    public static boolean isPalindrome(String input) {
+    public boolean isPalindrome(String input) {
         String normalizedInput = input.toLowerCase();
         int left = 0;
         int right = normalizedInput.length() - 1;
